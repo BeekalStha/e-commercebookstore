@@ -1,9 +1,56 @@
-.navbar-menu li {
+.navbar-menu a{
     transform: matrix3d();
   }
   
-  .navbar-menu li.active {
+  .navbar-menu a.active {
     text-decoration: underline; /* Add underline for active menu */
   }
 
+  @media (max-width:1050px) {
+    .logogg{
+      width: 100px;
+    }
+    .navbar-menus{
+      gap: 10px;
+      font-size: 17px;
+    }
+    .navbar-right{
+      gap: 30px;
+
+    }
+  
+
+    
+  }
+  @media (max-width:900px) {
+    .logogg{
+      width: 120px;
+    }
+    .navbar-menus{
+      gap: 15px;
+      font-size: 16px;
+    }
+    .navbar-right{
+      gap: 20px;
+
+    }
+  
+
+    
+  }
+  @media (max-width:750px) {
+    
+    .navbar-menus{
+      display: none;
+     
+    }
+    .navbar-right{
+      gap: 10px;
+    }
+   
+  
+
+    
+  }
+  
  

@@ -1,6 +1,6 @@
 .header{
-    height: 80vh;
-    margin: 30px auto;
+    height: 50vw;
+    margin: 40px auto;
     background: url('bgbookstore.webp') no-repeat;
     background-size: contain;
     position: relative;
@@ -28,3 +28,13 @@
     background-color: white;
     border-radius: 50px;
 }
+@media (max-width:750px) {
+    
+    .header p{
+        margin-bottom: -16px;
+    }
+   
+  
+
+    
+  }

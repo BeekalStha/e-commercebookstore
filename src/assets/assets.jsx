@@ -39,6 +39,7 @@ import education_2 from './edu_2.jpg'
 import education_3 from './edu_3.jpg'
 import education_4 from './edu_4.jpg'
 import education_5 from './edu_5.jpg'
+import history_cover_1 from './history_cover_1.jpg'
 import history_1 from './history_1.jpg'
 import history_2 from './history_2.webp'
 import history_3 from './history_3.webp'
@@ -102,6 +103,7 @@ export const assets = {
     education_2,education_3,
     education_4,
     education_5,
+    history_cover_1,
     history_1,
     history_2,
     history_3,
@@ -112,7 +114,7 @@ export const assets = {
     novel_1,
     novel_2,
     novel_3,
-    novel_4,
+    // novel_4,
     romance_1,
     romance_2,
     romance_3,
@@ -121,37 +123,41 @@ export const assets = {
     scifi_1,
     scifi_2,
     scifi_3,
-    scifi_4
+    // scifi_4
 
 
 
 }
 
 export const menu_list = [ 
-    {
-        menu_name: "History",
-        menu_image: history
-    },
-
-    {
-        menu_name: "Art & Photography",
-        menu_image: art_photography
-    },
-    {
-        menu_name: "Bio-graphy",
-        menu_image: biography
-    },
-    {
-        menu_name: "Business & Economics",
-        menu_image: business_economic
-    },
-    {
-        menu_name: "Education",
-        menu_image: education_book_cover
-    },
-    {
+  
+  {
+    menu_name: "Art & Photography",
+    menu_image: art_photography
+  },
+  {
+    menu_name: "Bio-graphy",
+    menu_image: biography
+  },
+  {
+    menu_name: "Business & Economics",
+    menu_image: business_economic
+  },
+  {
+    menu_name: "Education",
+    menu_image: education_book_cover
+  },
+  {
+      menu_name: "History",
+      menu_image: history_cover_1
+  },
+  {
         menu_name: "Literature",
         menu_image: literature
+    },
+    {
+        menu_name: "Novel",
+        menu_image: novel_cover
     },
     {
         menu_name: "Romance",
@@ -161,19 +167,309 @@ export const menu_list = [
         menu_name: "Sci-Fi",
         menu_image: sci_fi
     },
-    {
-        menu_name: "Travel & Culture",
-        menu_image: travel_culture
-    },
     
     
 ]
 export const book_list = [
-    // {
-    //     _id: "1",
-    //     name: "",
-    //     image: ,
-    //     price: ,
-    //     category: 
-    // }
+    {
+        _id: "1",
+        name: "Digital Photography",
+        image: art_1,
+        price: 20,
+        author: "Scott Kelby",
+        category: "Art & Photography"
+    },
+    {
+      _id:"2",
+      name:"The Book Of Photography",
+      image: art_2,
+      price: 15,
+      author: "John Hedgecoe",
+      category: "Art & Photography"
+    },
+    {
+      _id:"3",
+      name:"The Complete Encyclopedia Of Photography",
+      image: art_3,
+      price: 18,
+      author: "Micheal Langford",
+      category: "Art & Photography"
+    },
+    {
+      _id:"4",
+      name:"Vision",
+      image: art_4,
+      price: 24,
+      author: "Neil Folberg",
+      category: "Art & Photography"
+    },
+    {
+      _id:"5",
+      name:"The Happiest Man On The Earth",
+      image: bio_1,
+      price: 25,
+      author: "Eddie Jaku",
+      category: "Bio-graphy"
+    },
+    {
+      _id:"6",
+      name:"A Beautifl Mind",
+      image: bio_2,
+      price: 23,
+      author: "Sylvia Nasar",
+      category: "Bio-graphy"
+    },
+    {
+      _id:"7",
+      name:"Mad Girl's Love Song",
+      image: bio_3,
+      price: 21,
+      author: "Andrew Wilson",
+      category: "Bio-graphy"
+    },
+    {
+      _id:"8",
+      name:"Long Walk To Freedom",
+      image: bio_4,
+      price: 30,
+      author: "Nelson Mandela",
+      category: "Bio-graphy"
+    },
+    {
+      _id:"9",
+      name:"The Marvellous Work of Nature And Man",
+      image: bio_5,
+      price: 30,
+      author: "Leonardo Da Vinci",
+      category: "Bio-graphy"
+    },
+    {
+      _id:"10",
+      name:"Business Economics",
+      image: business_1,
+      price: 20,
+      author: "Andrew Ashwin",
+      category: "Business & Economics"
+    },
+    {
+      _id:"11",
+      name:"Economic for Business &Management",
+      image: business_2,
+      price: 23,
+      author: "Alan Grifiths",
+      category: "Business & Economics"
+    },
+    {
+      _id:"12",
+      name:"Managerial Economics and Business Strategy",
+      image: business_3,
+      price: 23,
+      author: "Machael R. Baye",
+      category: "Business & Economics"
+    },
+    {
+      _id:"13",
+      name:"Economics for Business",
+      image: business_4,
+      price: 20,
+      author: "John Soman",
+      category: "Business & Economics"
+    },
+    {
+      _id:"14",
+      name:"Chemistry",
+      image: education_1,
+      price: 20,
+      author: "Richard Fost",
+      category: "Education"
+    },
+    {
+      _id:"15",
+      name:"Basic Physics",
+      image: education_2,
+      price: 23,
+      author: "Karl F. Kuhn",
+      category: "Education"
+    },
+    {
+      _id:"16",
+      name:"Physical Science",
+      image: education_3,
+      price: 23,
+      author: "Mc Graw Mill",
+      category: "Education"
+    },
+    {
+      _id:"17",
+      name:"Clean COde",
+      image: education_4,
+      price: 24,
+      author: "Robert C. Martin",
+      category: "Education"
+    },
+    {
+      _id:"18",
+      name:"Enceladus",
+      image: education_5,
+      price: 24,
+      author: "Brandon Morris",
+      category: "Education"
+    },
+    {
+      _id:"19",
+      name:"The First World WAr",
+      image: history_1,
+      price: 23,
+      author: "Hew Strachan",
+      category: "History"
+    },
+    {
+      _id:"20",
+      name:"Second World War",
+      image: history_2,
+      price: 25,
+      author: "David Fordaan",
+      category: "History"
+    },
+    {
+      _id:"21",
+      name:"History of Nepal",
+      image: history_3,
+      price: 30,
+      author: "Uzo Marvin",
+      category: "History"
+    },
+    {
+      _id:"22",
+      name:"Mezo",
+      image: literature_1,
+      price: 15,
+      author: "Frank Herbert",
+      category: "Literature"
+    },
+    {
+      _id:"23",
+      name:"Untamed",
+      image: literature_2,
+      price: 20,
+      author: "Glennon Doyle",
+      category: "Literature"
+    },
+    {
+      _id:"24",
+      name:"Spark Joy",
+      image: literature_3,
+      price: 21,
+      author: "Marie Konda",
+      category: "Literature"
+    },
+    {
+      _id:"25",
+      name:"Throne Of Seal",
+      image: novel_1,
+      price: 30,
+      author: "Tang Jia San Shao",
+      category: "Novel"
+    },
+    {
+      _id:"26",
+      name:"Martial Peak",
+      image: novel_2,
+      price: 50,
+      author: "Momo",
+      category: "Novel"
+    },
+    {
+      _id:"27",
+      name:"Soul Land",
+      image: soul_land,
+      price: 40,
+      author: "Tang Jia Shan Shao",
+      category: "Novel"
+    },
+    {
+      _id:"28",
+      name:"Battle Through The Heavens",
+      image: battle_through,
+      price: 35,
+      author: "Tian Can Tu Dou ",
+      category: "Novel"
+    },
+    {
+      _id:"29",
+      name:"Zhan Long",
+      image: novel_3,
+      price: 24,
+      author: "Shi Luo Ye",
+      category: "Novel"
+    },
+    
+    {
+      _id:"30",
+      name:"Offaction",
+      image: romance_1,
+      price: 23,
+      author: "Krisrin Rouse",
+      category: "Romance"
+    },
+    {
+      _id:"31",
+      name:"Say You Will Be Mine",
+      image: romance_2,
+      price: 20,
+      author: "Kate Hunt",
+      category: "Romance"
+    },
+    {
+      _id:"32",
+      name:"Gothic Romance",
+      image: romance_3,
+      price: 20,
+      author: "Terrific Author",
+      category: "Romance"
+    },
+    {
+      _id:"33",
+      name:"Love Was One Thing That She Wants",
+      image: romance_4,
+      price: 23,
+      author: ".....",
+      category: "Romance"
+    },
+    {
+      _id:"34",
+      name:"Modern Love",
+      image: romance_5,
+      price: 25,
+      author: "Beau North",
+      category: "Romance"
+    },
+    {
+      _id:"35",
+      name:"SpearHead",
+      image: scifi_1,
+      price: 30,
+      author: "Jacob L. White",
+      category: "Sci-Fi"
+    },
+    {
+      _id:"36",
+      name:"Stars Are Legion",
+      image: scifi_2,
+      price: 35,
+      author: "Kameron Hurley",
+      category: "Sci_Fi"
+    },
+    {
+      _id:"37",
+      name:"Agemt Of Change",
+      image: scifi_3,
+      price: 26,
+      author: "Sharon Lee",
+      category: "Sci-Fi"
+    },
+    
+
+
+
 ]
