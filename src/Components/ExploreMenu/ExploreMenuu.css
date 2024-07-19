@@ -50,3 +50,10 @@
     border: 4px solid black;
     padding: 2px;
 }
+
+@media (max-width:750px) {
+    .explore-menu-list{
+        gap: 15px;
+        margin: 10px 0px;
+    }
+}
