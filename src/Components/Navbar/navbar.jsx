@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { assets } from '../assets/assets';
+import { assets } from '../../assets/assets';
 import { FaSearch, FaShoppingCart, FaSignOutAlt, FaSignInAlt, FaUser } from "react-icons/fa";
 import './navbar.css';
 
